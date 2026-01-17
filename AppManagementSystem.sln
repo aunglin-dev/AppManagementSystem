@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backendapi.AppManagementSystem", "Backendapi.AppManagementSystem\Backendapi.AppManagementSystem.csproj", "{18893AFE-8282-4E76-A04A-3A03779A1F52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAPI.Domain", "BackendAPI.Domain\BackendAPI.Domain.csproj", "{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18893AFE-8282-4E76-A04A-3A03779A1F52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18893AFE-8282-4E76-A04A-3A03779A1F52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18893AFE-8282-4E76-A04A-3A03779A1F52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18893AFE-8282-4E76-A04A-3A03779A1F52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5387305-CEBD-40A9-A8D8-01CDBA930011}
+	EndGlobalSection
+EndGlobal
