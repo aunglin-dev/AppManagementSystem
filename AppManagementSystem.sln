@@ -7,6 +7,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backendapi.AppManagementSys
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAPI.Domain", "BackendAPI.Domain\BackendAPI.Domain.csproj", "{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{707682A2-F261-406F-8C64-8CC8EA935629}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Config", ".Config", "{A5A09633-09A2-469E-8EE1-2A59A94C4847}"
+	ProjectSection(SolutionItems) = preProject
+		appsetting.json = appsetting.json
+		custom-setting-dev.json = custom-setting-dev.json
+		custom-setting-PRD.json = custom-setting-PRD.json
+		custom-setting-SIT.json = custom-setting-SIT.json
+		custom-setting-UAT.json = custom-setting-UAT.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +32,10 @@ Global
 		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5EDAEFA-E8D0-44EF-AD12-23F3A2C55453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{707682A2-F261-406F-8C64-8CC8EA935629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{707682A2-F261-406F-8C64-8CC8EA935629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{707682A2-F261-406F-8C64-8CC8EA935629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{707682A2-F261-406F-8C64-8CC8EA935629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+{
+  "IsDevelopment": true,
+  "DbConnection": "Server=localhost;Database=GlobalNet_CodeTest;User Id=sa;Password=123456;TrustServerCertificate=True;",
+  "SecretKey": "dev-secret-key",
+  "EnableEncryption" :  false,
+}
